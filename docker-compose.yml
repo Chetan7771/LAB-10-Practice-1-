@@ -24,7 +24,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: chetan7771/kab10practice-frontend:latest
+    image: chetan7771/lab10practice-frontend:latest
     container_name: react
     ports:
       - "3000:80"
